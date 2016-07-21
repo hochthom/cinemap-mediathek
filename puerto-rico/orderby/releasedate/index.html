@@ -1,0 +1,102 @@
+<!doctype html>
+<html  lang="de">
+  <head>
+    <title>Cinemap – Moviemento-Mediathek</title>
+    <meta  charset="utf-8" />
+    <meta  content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta  content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta  content="todo" name="description" />
+    <meta  content="Thomas Hoch und Dominic Looser" name="author" />
+    <link  href="/static/images/favicon.ico" rel="shortcut icon" />
+    <link  href="/static/styles.css" rel="stylesheet" />
+    <link  href="http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" />
+    <link  href="http://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <h1>
+          <a  href="/">Cinemap</a>
+        </h1>
+        <p>Edition Moviemento-Mediathek</p>
+      </div>
+    </header>
+    
+  <div class="container">
+    <div id="map"> </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="films" class="col-md-8 box">
+        <h2 class="country-title">Puerto Rico</h2>
+        <hr />
+        <form class="sorting">
+          <span>sortiert nach:</span>
+          
+            <input  data-href="/puerto-rico/orderby/popularity#films" type="radio" name="orderby" id="popularity" />
+          
+          <label  for="popularity">Popularität</label>
+          
+            <input  checked="true" data-href="/puerto-rico/orderby/releasedate#films" type="radio" name="orderby" id="releasedate" />
+          
+          <label  for="releasedate">Erscheinungsdatum</label>
+        </form>
+        
+        
+      </div>
+      <div class="col-md-4">
+        <aside class="box sidebar">
+          <section>
+  <h3>Populäre Regisseure</h3>
+  <hr />
+  <ul class="list-unstyled">
+    
+  </ul>
+</section>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <div id="videomodal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close"  data-dismiss="modal" type="button" aria-hidden="true">
+             &times;
+          </button>
+          <h3 class="modal-title"> </h3>
+        </div>
+        <div class="modal-body">
+          <iframe  src="" allowfullscreen="true" width="480" frameborder="0" height="360"> </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <footer class="box">
+    <div class="container">
+        <img  width="61px" alt="Freebase CC-BY" src="http://www.freebase.com/policies/freebase-cc-by-61x23.png" height="23px" />
+        <span>Datenquellen:</span>
+        <a  href="http://www.freebase.com/">Freebase</a>
+        <a  href="http://creativecommons.org/licenses/by/2.5/">(CC-BY),</a>
+        <a  href="http://en.wikipedia.org/">Wikipedia</a>
+        <a  href="http://creativecommons.org/licenses/by-sa/2.5/">(CC BY-SA).</a>
+        <span>This product uses the TMDb API but is not endorsed or certified by TMDb.</span>
+    </div>
+</footer>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46126283-2', 'cinemap.org');
+  ga('send', 'pageview');
+
+</script>
+    <script  src="/static/scripts.js"> </script>
+    
+  <script>drawMap('630')</script>
+
+  </body>
+</html>
