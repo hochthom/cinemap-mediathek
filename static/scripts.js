@@ -923,7 +923,7 @@ window.drawMap = function(countryIsoId) {
   path = d3.geo.path().projection(projection);
   svg = d3.select('#map').append('svg').attr('width', '100%').attr('heigth', height);
   svg.append('rect').attr('class', 'mapbackground').attr('width', '100%').attr('height', height).on('click', function() {
-    return window.location = '/cinemap-mediathek';
+    return window.location = '/';
   });
   g = svg.append('g');
   data = [];
@@ -960,9 +960,9 @@ window.drawMap = function(countryIsoId) {
   }
   clicked = function(country) {
     if (country.id > 0) {
-      return window.location = '/cinemap-mediathek/' + mapdata[padIsoNumeric(country.id)].pretty_id;
+      return window.location = '/' + mapdata[padIsoNumeric(country.id)].pretty_id;
     } else {
-      return window.location = '/cinemap-mediathek';
+      return window.location = '/';
     }
   };
   g.append('g').attr('id', 'countries').selectAll('path').data(countries).enter().append('path').attr('d', path).style('fill', function(d, i) {
