@@ -923,7 +923,7 @@ window.drawMap = function(countryIsoId) {
   path = d3.geo.path().projection(projection);
   svg = d3.select('#map').append('svg').attr('width', '100%').attr('heigth', height);
   svg.append('rect').attr('class', 'mapbackground').attr('width', '100%').attr('height', height).on('click', function() {
-    return window.location = '/';
+    return window.location = '/cinemap-mediathek';
   });
   g = svg.append('g');
   data = [];
