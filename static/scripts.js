@@ -960,9 +960,9 @@ window.drawMap = function(countryIsoId) {
   }
   clicked = function(country) {
     if (country.id > 0) {
-      return window.location = '/cinemap-mediathek/' + mapdata[padIsoNumeric(country.id)].pretty_id;
+      return window.location = '/' + mapdata[padIsoNumeric(country.id)].pretty_id;
     } else {
-      return window.location = '/cinemap-mediathek';
+      return window.location = '/';
     }
   };
   g.append('g').attr('id', 'countries').selectAll('path').data(countries).enter().append('path').attr('d', path).style('fill', function(d, i) {
