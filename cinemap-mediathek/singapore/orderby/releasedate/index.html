@@ -1,0 +1,121 @@
+<!doctype html>
+<html  lang="de">
+  <head>
+    <title>Cinemap – Moviemento-Mediathek</title>
+    <meta  charset="utf-8" />
+    <meta  content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta  content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta  content="todo" name="description" />
+    <meta  content="Thomas Hoch und Dominic Looser" name="author" />
+    <link  href="/cinemap-mediathek/static/images/favicon.ico" rel="shortcut icon" />
+    <link  href="/cinemap-mediathek/static/styles.css" rel="stylesheet" />
+    <link  href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" />
+    <link  href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <h1>
+          <a  href="/cinemap-mediathek/">Cinemap</a>
+        </h1>
+        <p>Edition Moviemento-Mediathek</p>
+      </div>
+    </header>
+  <div class="container">
+    <div id="map"> </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="films" class="col-md-8 box">
+        <h2 class="country-title">Singapur</h2>
+        <hr />
+        <form class="sorting">
+          <span>sortiert nach:</span>
+            <input  data-href="/cinemap-mediathek/singapore/orderby/popularity#films" type="radio" name="orderby" id="popularity" />
+          <label  for="popularity">Popularität</label>
+            <input  checked="true" data-href="/cinemap-mediathek/singapore/orderby/releasedate#films" type="radio" name="orderby" id="releasedate" />
+          <label  for="releasedate">Erscheinungsdatum</label>
+        </form>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/zUNTQK7USZMSpTJLv6L2xlrJyd5.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Be with Me
+      <span class="pull-right">2005</span>
+    </h3>
+      <p class="film-description">
+        <span>Eric Khoo lädt uns ein auf eine Reise zum Sein. Er spinnt drei verschiedene fiktive Lebensfäden und verwebt sie mit der ...</span>
+        <a class="more">mehr</a>
+      </p>
+      <p class="film-description invisible">
+        <span>Eric Khoo lädt uns ein auf eine Reise zum Sein. Er spinnt drei verschiedene fiktive Lebensfäden und verwebt sie mit der realen Figur der Taubblinden Theresa Chan, die seit über fünfzig Jahren ohne Gesichts- und Gehörsinn lebt und eine wohltuende Kraft ausstrahlt. Kann es sein, dass sie uns wieder besser sehen und hören macht? Es geht in diesem Spielfilm um zentrale Elemente des Lebens wie die Liebe, die Hoffnung und das Schicksal. Und es geht um die menschliche Sehnsucht nach dem Zusammensein, der Nähe. Da sind die verhinderten Liebschaften eines Mädchens, die geheime Bewunderung eines Sicherheitsagenten für eine junge Kaderangestellte und der alte Mann, der den Tod seiner Frau nicht überwinden kann. Es sind wunderbare Geschichten über die Liebe in unterschiedlichen Lebensaltern. Und mitten drin jene reale Frau, die das Leben ohne Sehen und Hören meistert. Be With Me ist ein sinnlicher und besinnlicher Film, der wohl tut.</span>
+        <a class="less">weniger</a>
+      </p>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Eric Khoo
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Theresa Poh Lin Chan, Royston Tan, Seet Keng Yew, Ezann Lee, Lynn Poh
+        </dd>
+    </dl>
+    <div class="pull-right">
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="col-md-4">
+        <aside class="box sidebar">
+          <section>
+  <h3>Populäre Regisseure</h3>
+  <hr />
+  <ul class="list-unstyled">
+      <li>Eric Khoo</li>
+      <li>Ekachai Uekrongtham</li>
+  </ul>
+</section>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <div id="videomodal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close"  data-dismiss="modal" type="button" aria-hidden="true">
+             &times;
+          </button>
+          <h3 class="modal-title"> </h3>
+        </div>
+        <div class="modal-body">
+          <iframe  src="" allowfullscreen="true" width="480" frameborder="0" height="360"> </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="box">
+    <div class="container">
+        <img  width="61px" alt="Freebase CC-BY" src="http://www.freebase.com/policies/freebase-cc-by-61x23.png" height="23px" />
+        <span>Datenquellen:</span>
+        <a  href="http://www.freebase.com/">Freebase</a>
+        <a  href="http://creativecommons.org/licenses/by/2.5/">(CC-BY),</a>
+        <a  href="http://en.wikipedia.org/">Wikipedia</a>
+        <a  href="http://creativecommons.org/licenses/by-sa/2.5/">(CC BY-SA).</a>
+        <span>This product uses the TMDb API but is not endorsed or certified by TMDb.</span>
+    </div>
+</footer>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-46126283-2', 'cinemap.org');
+  ga('send', 'pageview');
+</script>
+    <script  src="/cinemap-mediathek/static/scripts.js"> </script>
+  <script>drawMap('702')</script>
+  </body>
+</html>

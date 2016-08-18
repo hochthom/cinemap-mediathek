@@ -1,0 +1,465 @@
+<!doctype html>
+<html  lang="de">
+  <head>
+    <title>Cinemap – Moviemento-Mediathek</title>
+    <meta  charset="utf-8" />
+    <meta  content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta  content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta  content="todo" name="description" />
+    <meta  content="Thomas Hoch und Dominic Looser" name="author" />
+    <link  href="/cinemap-mediathek/static/images/favicon.ico" rel="shortcut icon" />
+    <link  href="/cinemap-mediathek/static/styles.css" rel="stylesheet" />
+    <link  href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" />
+    <link  href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <h1>
+          <a  href="/cinemap-mediathek/">Cinemap</a>
+        </h1>
+        <p>Edition Moviemento-Mediathek</p>
+      </div>
+    </header>
+  <div class="container">
+    <div id="map"> </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="films" class="col-md-8 box">
+        <h2 class="country-title">Vereinigte Staaten von Amerika</h2>
+        <hr />
+        <form class="sorting">
+          <span>sortiert nach:</span>
+            <input  data-href="/cinemap-mediathek/united-states-of-america/orderby/popularity#films" type="radio" name="orderby" id="popularity" />
+          <label  for="popularity">Popularität</label>
+            <input  checked="true" data-href="/cinemap-mediathek/united-states-of-america/orderby/releasedate#films" type="radio" name="orderby" id="releasedate" />
+          <label  for="releasedate">Erscheinungsdatum</label>
+        </form>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/7iCesBEGzJDMaAzq01BBfNbNq9E.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Die Lust der schönen Rose
+      <span class="pull-right">1991</span>
+        <small class="film-subtitle">Rambling Rose</small>
+    </h3>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Martha Coolidge
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Robert Duvall, Diane Ladd, Lukas Haas, Laura Dern, John Heard
+        </dd>
+    </dl>
+    <div class="pull-right">
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/4mAbOuH634AGilhWJJSSNNLp5bk.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Barton Fink
+      <span class="pull-right">1991</span>
+    </h3>
+      <p class="film-description">
+        <span>"Nach dem Überraschungserfolg seines Theaterstücks über den ""gemeinen Mann"" folgt Autor Barton Fink nur widerwillig ...</span>
+        <a class="more">mehr</a>
+      </p>
+      <p class="film-description invisible">
+        <span>"Nach dem Überraschungserfolg seines Theaterstücks über den ""gemeinen Mann"" folgt Autor Barton Fink nur widerwillig dem Ruf Hollywoods. Isoliert in einem stickigen Hotelzimmer soll er einem Ringerfilm mit Wallace Beery das Barton-Fink-Feeling verpassen. Doch nicht einmal die Besuche seines kumpelhaften Nachbarn Charlie, eines Vertreters, helfen Fink über seine Schreibblockade hinweg. Am Morgen nach einer Liebesnacht mit Audrey, der Geliebten und Sekretärin des Autors Mayhew, findet er ihre Leiche grausam verstümmelt neben sich. Während Charlie sich um sie kümmert, beginnt Barton wie entfesselt das Stück seines Lebens zu schreiben. Doch der Studiochef lässt Barton auflaufen, und der einzige Freund erweist sich als Massenmörder...In seinem vierten Film sprengt das geniale Brüderpaar Ethan und Joel Coen nach Ausflügen in die Terrains Thriller (""Blood Simple""), Komödie (""Arizona Junior"") und Gangsterfilm (""Millers Crossing"") alle Genrekonventionen. In mannigfaltig deutbaren Szenen voller schwarzem Humor, in unglaublichen Kamerafahrten und detailverliebt wie eh und je beschreiben die beiden die Seelenqualen eines an Schreibblockade leidenden Autors und rechnen gleichzeitig bitterböse mit den Mechanismen Hollywoods ab. John Turturro, John Goodman (""King Ralph"") und Michael Lerner, der für einen Oscar nominiert wurde, liefern Galavorstellungen in dem düster surrealen Gewinner der goldenen Palme von Cannes 1991. -UHP"</span>
+        <a class="less">weniger</a>
+      </p>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Ethan Coen, Joel Coen
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Steve Buscemi, John Turturro, John Goodman, Richard Portnow, Frances McDormand
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="WK0WjWlVO9w" type="button" class="videobutton" data-title="Barton Fink: Trailer 1">
+           Trailer 1
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="/cinemap-mediathek/static/images/nofilmposter.png" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Shadow of a Doubt
+      <span class="pull-right">1991</span>
+    </h3>
+      <p class="film-description">
+        <span>"Charlie Oakley (Joseph Cotten) ist ein charmanter, verführerischer Mann - und ein Killer, der auf der Flucht vor der ...</span>
+        <a class="more">mehr</a>
+      </p>
+      <p class="film-description invisible">
+        <span>"Charlie Oakley (Joseph Cotten) ist ein charmanter, verführerischer Mann - und ein Killer, der auf der Flucht vor der Polizei von Philadelphia nach Kalifornien reist. In der schläfrigen Kleinstadt Santa Rosa will er bei Verwandten Unterschlupf und ein bisschen Ruhe finden. Dummerweise ist seine Nichte, die ""kleine Charlie"" (Teresa Wright), nicht ganz so naiv, wie angenommen. Sie hat schon sehr bald ihren Onkel in Verdacht, der gesuchte Witwenmörder zu sein und bringt diesen mit ihrer Neugier schnell in echte Schwierigkeiten. So bleibt dem psychopathisch-sympathischen Mörder nur noch ein Ausweg: Er plant den Mord an seiner Lieblingsverwandten...-UHP"</span>
+        <a class="less">weniger</a>
+      </p>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Karen Arthur
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Tippi Hedren
+        </dd>
+    </dl>
+    <div class="pull-right">
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/3P6eiVOIDFfGyHbSFbVGrgoDvVc.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      The Doors
+      <span class="pull-right">1991</span>
+    </h3>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Oliver Stone
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Michael Madsen, Wes Studi, Debi Mazar, Crispin Glover, Val Kilmer
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="1_LPEynddOo" type="button" class="videobutton" data-title="The Doors: Trailer 1">
+           Trailer 1
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/uzaP0L7BEprcJHCuwbaHiYT0UYX.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Der Pate III
+      <span class="pull-right">1990</span>
+        <small class="film-subtitle">The Godfather: Part III</small>
+    </h3>
+      <p class="film-description">
+        <span>Eine der grössten Sagen der Filmgeschichte geht weiter. Im dritten Film der Corleone-Trilogie verkörpert Al Pacino ...</span>
+        <a class="more">mehr</a>
+      </p>
+      <p class="film-description invisible">
+        <span>Eine der grössten Sagen der Filmgeschichte geht weiter. Im dritten Film der Corleone-Trilogie verkörpert Al Pacino erneut die Rolle des mächtigen Clanführers Michael Corleone. Den mittlerweile über sechzigjährigen Michael beherrschen zwei Leidenschaften: seine Familie aus der Kriminalität zu befreien und einen geeigneten Nachfolger zu finden. Dieser Nachfolger könnte der hitzköpfige Vincent (Andy Garcia) sein...aber er könnte genauso gut der Funke sein, der Michaels Hoffnung auf legale Geschäfte in ein Inferno primitiver Gewalt verwandelt. In diesem aufregenden, lang erwarteten Film inszeniert Francis Ford Coppola meisterhaft die Themen Gewalt, Tradition, Rache und Liebe. Pacino, Garcia, Diane Keaton, Talia Shire, Eli Wallach, Sofia Coppola, Joe Mantegna und andere zeigen unter seiner Regie Höchstleistungen. Sieben Oscar®-Nominierungen 1990 waren das Resultat  darunter auch für den besten Film. -CR</span>
+        <a class="less">weniger</a>
+      </p>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Francis Ford Coppola
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Al Pacino, John Cazale, Diane Keaton, Richard Bright, Talia Shire
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="z8h3LVb8cl8" type="button" class="videobutton" data-title="Der Pate III: Trailer 1">
+           Trailer 1
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/gmUAhNHY4bxQzgHjXci5JAW7u62.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Miller’s Crossing
+      <span class="pull-right">1990</span>
+        <small class="film-subtitle">Miller's Crossing</small>
+    </h3>
+      <p class="film-description">
+        <span>Eine Stadt irgendwo im Osten der USA: man schreibt das Jahr 1929, die Zeit der Prohibition. Es herrschen raue Sitten, ...</span>
+        <a class="more">mehr</a>
+      </p>
+      <p class="film-description invisible">
+        <span>Eine Stadt irgendwo im Osten der USA: man schreibt das Jahr 1929, die Zeit der Prohibition. Es herrschen raue Sitten, denn die Gangsterbosse sind die eigentlichen Drahtzieher der Stadt. Bürgermeister und Polizeichef tanzen nach der Pfeife des irischen Bandenchefs Leo (Albert Finney). Er glaubt, alles unter Kontrolle zu haben. Allerdings weiss er nicht, dass Tom (Gabriel Byrne), der zweite Mann der Gang, sich mit seiner Geliebten Verna (Marcia Gay Harden) im Bett vergnügt. Als der rivalisierende italienische Gangsterboss Johnny Caspar (Jon Polito) den Kopf von Vernas Bruder verlangt, weigert sich Leo. Ein blutiger Bandenkrieg bricht los - und Tom steht plötzlich zwischen allen Fronten...-THPFast zwei Jahre begleitete der preisgekrönte Dokumentarfilmer Robert Weide den als notorisch scheu geltenden Allen. Das Portrait zeigt einen Woody Allen, der mit grosser Offenheit und seinem ganz typischen Humor den Zuschauer teilhaben lässt an seinem Leben und seiner künstlerischen Arbeit als Autor, Filmemacher, Musiker und auch Schauspieler. Weide spannt den Bogen von der frühesten Kindheit bis zu Allens Cannes-Premiere seines letzten grossen Erfolgs ""Midnight in Paris"", bei dessen Dreharbeiten zum ersten Mal ein Kamerateam die Arbeit am Set filmen durfte. Wichtige Weggefährten Allens kommen zu Wort, abgerundet wird das Bild dieses kreativen Work-aholics, der im Jahresrhythmus neue Filme schafft, durch Archivmaterial und zahlreiche Ausschnitte aus seinen Filmen. 
+""Woody Allen: A Documentary"" offenbart auf unterhaltsame und bisweilen sehr komische Weise viel Neues über Woody Allen und die unermessliche Kreativität seines Schaffens. Und er dokumentiert dabei  fast beiläufig  50 Jahre Filmgeschichte."</span>
+        <a class="less">weniger</a>
+      </p>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Joel Coen, Ethan Coen
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Steve Buscemi, John Turturro, Mike Starr, Michael Badalucco, Gabriel Byrne
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="hkJIcFMN_pc" type="button" class="videobutton" data-title="Miller’s Crossing: Trailer 1">
+           Trailer 1
+        </button>
+        <button  data-id="iN9zhedLCyA" type="button" class="videobutton" data-title="Miller’s Crossing: Trailer 2">
+           Trailer 2
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/rIAr3Q6XqAvl7Aj2wpiKKSmWrt6.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Land der schwarzen Sonne
+      <span class="pull-right">1990</span>
+        <small class="film-subtitle">Mountains of the Moon</small>
+    </h3>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Bob Rafelson
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Bernard Hill, Omar Sharif, Delroy Lindo, Fiona Shaw, Richard E. Grant
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="9ETq5HUeG1A" type="button" class="videobutton" data-title="Land der schwarzen Sonne: Trailer 1">
+           Trailer 1
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/ibZb8F869oN4z3oxTLrpvXqdyfL.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Roger &amp; Me
+      <span class="pull-right">1989</span>
+        <small class="film-subtitle">Roger & Me</small>
+    </h3>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Michael Moore
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Guy Williams, Correy Lennox, Brian MacDonald, Richard Earl Sawdon
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="xPNmHPjkxdk" type="button" class="videobutton" data-title="Roger &amp; Me: Trailer 1">
+           Trailer 1
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/iUg2AqczcJFGRNRs8OA1OU62TNg.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Verbrechen und andere Kleinigkeiten
+      <span class="pull-right">1989</span>
+        <small class="film-subtitle">Crimes and Misdemeanors</small>
+    </h3>
+      <p class="film-description">
+        <span>Die Protagonisten der zwei geschickt miteinander verwobenen Handlungsstränge sind der erfolglose Dokumentarfilmer Cliff ...</span>
+        <a class="more">mehr</a>
+      </p>
+      <p class="film-description invisible">
+        <span>Die Protagonisten der zwei geschickt miteinander verwobenen Handlungsstränge sind der erfolglose Dokumentarfilmer Cliff Stern und der Augenarzt Judah Rosenthal. Beide haben Entscheidungen von ganz unterschiedlichem Gewicht zu treffen. Obwohl verheiratet, fragt sich Cliff, ob er der sympathischen Filmproduzentin Halley seine Liebe gestehen soll. Judah dagegen versucht, seine Ehe zu retten. Doch dazu scheint es nur ein Mittel zu geben: Er muss das Angebot seines mit der Mafia verbandelten Bruders annehmen und seine eifersüchtige Geliebte Dolores töten lassen. -MHP</span>
+        <a class="less">weniger</a>
+      </p>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Woody Allen
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Sam Waterston, Anjelica Huston, Daryl Hannah, Claire Bloom, Martin Landau
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="5wXqwL3akhw" type="button" class="videobutton" data-title="Verbrechen und andere Kleinigkeiten: Trailer 1">
+           Trailer 1
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/fJBea43DpS6BhL9ZTBDoTNMiOG6.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Johnny Handsome – Der schöne Johnny
+      <span class="pull-right">1989</span>
+        <small class="film-subtitle">Johnny Handsome</small>
+    </h3>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Walter Hill
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Morgan Freeman, Lance Henriksen, Allan Graf, Elizabeth McGovern, Mickey Rourke
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="QMtHZGn1Ka4" type="button" class="videobutton" data-title="Johnny Handsome – Der schöne Johnny: Trailer 1">
+           Trailer 1
+        </button>
+    </div>
+  </div>
+</div>
+  <ul class="pagination">
+      <li>
+        <a  href="/cinemap-mediathek/united-states-of-america/orderby/releasedate/69/#films">
+           &laquo;
+        </a>
+      </li>
+          <li>
+            <a  href="/cinemap-mediathek/united-states-of-america/orderby/releasedate/#films">
+               1
+            </a>
+          </li>
+          <li>
+            <a  href="/cinemap-mediathek/united-states-of-america/orderby/releasedate/2/#films">
+               2
+            </a>
+          </li>
+        <li>
+          <a>&hellip;</a>
+        </li>
+          <li>
+            <a  href="/cinemap-mediathek/united-states-of-america/orderby/releasedate/68/#films">
+               68
+            </a>
+          </li>
+          <li>
+            <a  href="/cinemap-mediathek/united-states-of-america/orderby/releasedate/69/#films">
+               69
+            </a>
+          </li>
+          <li  class="active">
+            <a>
+              70
+            </a>
+          </li>
+          <li>
+            <a  href="/cinemap-mediathek/united-states-of-america/orderby/releasedate/71/#films">
+               71
+            </a>
+          </li>
+          <li>
+            <a  href="/cinemap-mediathek/united-states-of-america/orderby/releasedate/72/#films">
+               72
+            </a>
+          </li>
+          <li>
+            <a  href="/cinemap-mediathek/united-states-of-america/orderby/releasedate/73/#films">
+               73
+            </a>
+          </li>
+          <li>
+            <a  href="/cinemap-mediathek/united-states-of-america/orderby/releasedate/74/#films">
+               74
+            </a>
+          </li>
+        <li>
+          <a>&hellip;</a>
+        </li>
+          <li>
+            <a  href="/cinemap-mediathek/united-states-of-america/orderby/releasedate/81/#films">
+               81
+            </a>
+          </li>
+          <li>
+            <a  href="/cinemap-mediathek/united-states-of-america/orderby/releasedate/82/#films">
+               82
+            </a>
+          </li>
+      <li>
+        <a  href="/cinemap-mediathek/united-states-of-america/orderby/releasedate/71/#films">
+           &raquo;
+        </a>
+      </li>
+  </ul>
+      </div>
+      <div class="col-md-4">
+        <aside class="box sidebar">
+          <section>
+  <h3>Populäre Regisseure</h3>
+  <hr />
+  <ul class="list-unstyled">
+      <li>Francis Ford Coppola</li>
+      <li>Christopher Nolan</li>
+      <li>Steven Spielberg</li>
+      <li>Martin Scorsese</li>
+      <li>Quentin Tarantino</li>
+      <li>Alfred Hitchcock</li>
+      <li>Billy Wilder</li>
+      <li>Stanley Kubrick</li>
+  </ul>
+</section>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <div id="videomodal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close"  data-dismiss="modal" type="button" aria-hidden="true">
+             &times;
+          </button>
+          <h3 class="modal-title"> </h3>
+        </div>
+        <div class="modal-body">
+          <iframe  src="" allowfullscreen="true" width="480" frameborder="0" height="360"> </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="box">
+    <div class="container">
+        <img  width="61px" alt="Freebase CC-BY" src="http://www.freebase.com/policies/freebase-cc-by-61x23.png" height="23px" />
+        <span>Datenquellen:</span>
+        <a  href="http://www.freebase.com/">Freebase</a>
+        <a  href="http://creativecommons.org/licenses/by/2.5/">(CC-BY),</a>
+        <a  href="http://en.wikipedia.org/">Wikipedia</a>
+        <a  href="http://creativecommons.org/licenses/by-sa/2.5/">(CC BY-SA).</a>
+        <span>This product uses the TMDb API but is not endorsed or certified by TMDb.</span>
+    </div>
+</footer>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-46126283-2', 'cinemap.org');
+  ga('send', 'pageview');
+</script>
+    <script  src="/cinemap-mediathek/static/scripts.js"> </script>
+  <script>drawMap('840')</script>
+  </body>
+</html>

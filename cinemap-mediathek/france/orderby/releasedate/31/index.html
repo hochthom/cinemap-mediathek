@@ -1,0 +1,440 @@
+<!doctype html>
+<html  lang="de">
+  <head>
+    <title>Cinemap – Moviemento-Mediathek</title>
+    <meta  charset="utf-8" />
+    <meta  content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta  content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta  content="todo" name="description" />
+    <meta  content="Thomas Hoch und Dominic Looser" name="author" />
+    <link  href="/cinemap-mediathek/static/images/favicon.ico" rel="shortcut icon" />
+    <link  href="/cinemap-mediathek/static/styles.css" rel="stylesheet" />
+    <link  href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" />
+    <link  href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <h1>
+          <a  href="/cinemap-mediathek/">Cinemap</a>
+        </h1>
+        <p>Edition Moviemento-Mediathek</p>
+      </div>
+    </header>
+  <div class="container">
+    <div id="map"> </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="films" class="col-md-8 box">
+        <h2 class="country-title">Frankreich</h2>
+        <hr />
+        <form class="sorting">
+          <span>sortiert nach:</span>
+            <input  data-href="/cinemap-mediathek/france/orderby/popularity#films" type="radio" name="orderby" id="popularity" />
+          <label  for="popularity">Popularität</label>
+            <input  checked="true" data-href="/cinemap-mediathek/france/orderby/releasedate#films" type="radio" name="orderby" id="releasedate" />
+          <label  for="releasedate">Erscheinungsdatum</label>
+        </form>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/8FL3mRL4PFVhu9mtSBXLuJtTviG.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Le signe du lion
+      <span class="pull-right">1962</span>
+    </h3>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Éric Rohmer
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Jean-Luc Godard, Stéphane Audran, Van Doude, Jess Hahn, Michèle Girardon
+        </dd>
+    </dl>
+    <div class="pull-right">
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/zMgO4XYShUGMEtfDHLx4N8vsfbP.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Jules und Jim
+      <span class="pull-right">1962</span>
+        <small class="film-subtitle">Jules et Jim</small>
+    </h3>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        François Truffaut
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Jeanne Moreau, Marie Dubois, Michel Subor, Oskar Werner, Henri Serre
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="x5IAYIUKTaI" type="button" class="videobutton" data-title="Jules und Jim: Trailer 1">
+           Trailer 1
+        </button>
+        <button  data-id="UkGFRwmakGQ" type="button" class="videobutton" data-title="Jules und Jim: Trailer 2">
+           Trailer 2
+        </button>
+        <button  data-id="yE8kM-xteq8" type="button" class="videobutton" data-title="Jules und Jim: Trailer 3">
+           Trailer 3
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/ifcJVN8fG16GLhvxrPv6bP5S4m3.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Der kleine Soldat
+      <span class="pull-right">1961</span>
+        <small class="film-subtitle">Le petit soldat</small>
+    </h3>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Jean-Luc Godard
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Anna Karina, László Szabó, Jean-Luc Godard, Michel Subor, Henri-Jacques Huet
+        </dd>
+    </dl>
+    <div class="pull-right">
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/gGVQZOIJzLu6LQseUlQgtQaFGAf.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Eine Frau ist eine Frau
+      <span class="pull-right">1961</span>
+        <small class="film-subtitle">Une femme est une femme</small>
+    </h3>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Jean-Luc Godard
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Jeanne Moreau, Anna Karina, Jean-Claude Brialy, Jean-Paul Belmondo, Dominique Zardi
+        </dd>
+    </dl>
+    <div class="pull-right">
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/k6eDqARClIaYEu8vjeWJVAYDvPB.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Zazie
+      <span class="pull-right">1960</span>
+        <small class="film-subtitle">Zazie dans le métro</small>
+    </h3>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Louis Malle
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Philippe Noiret, Hubert Deschamps, Jacques Dufilho, Vittorio Caprioli, Yvonne Clech
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="lpt0xB7qSj4" type="button" class="videobutton" data-title="Zazie: Trailer 1">
+           Trailer 1
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/o8kcsJj26lo8if2UwmteyMNAFXR.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Schießen Sie auf den Pianisten
+      <span class="pull-right">1960</span>
+        <small class="film-subtitle">Tirez sur le pianiste</small>
+    </h3>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        François Truffaut
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Albert Rémy, Claude Mansard, Marie Dubois, Daniel Boulanger, Boby Lapointe
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="tjd6Eg9APAs" type="button" class="videobutton" data-title="Schießen Sie auf den Pianisten: Trailer 1">
+           Trailer 1
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/nGx61OYnDm6fUzfLHU1iqjDRSjy.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Außer Atem
+      <span class="pull-right">1960</span>
+        <small class="film-subtitle">À bout de souffle</small>
+    </h3>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Jean-Luc Godard
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Claude Mansard, Jean-Paul Belmondo, Jean-Luc Godard, Daniel Boulanger, Van Doude
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="w2hDR_e1o1M" type="button" class="videobutton" data-title="Außer Atem: Trailer 1">
+           Trailer 1
+        </button>
+        <button  data-id="juihAJaAkgA" type="button" class="videobutton" data-title="Außer Atem: Trailer 2">
+           Trailer 2
+        </button>
+        <button  data-id="7DSVi2Icy5g" type="button" class="videobutton" data-title="Außer Atem: Trailer 3">
+           Trailer 3
+        </button>
+        <button  data-id="FLBK6P5ATxk" type="button" class="videobutton" data-title="Außer Atem: Trailer 4">
+           Trailer 4
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/cKZ0IswIouJf1HtiBMvlFGWfYaX.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Pickpocket
+      <span class="pull-right">1959</span>
+    </h3>
+      <p class="film-description">
+        <span>"Michel schlägt sich in Paris mit Taschendiebstählen durch. Er glaubt, er könne sich über die geltenden Gesetze ...</span>
+        <a class="more">mehr</a>
+      </p>
+      <p class="film-description invisible">
+        <span>"Michel schlägt sich in Paris mit Taschendiebstählen durch. Er glaubt, er könne sich über die geltenden Gesetze hinwegsetzen und lässt sich weder von seiner Freundin Jeanne noch von einem ihn verdächtigenden Kommissar davon abbringen. Nach und nach verfeinert er seine Technik und wird vom Amateurdieb zum Profi. Doch auch die grösste Meisterschaft kann ihn nicht vom unvermeidlichen Ende seiner kriminellen Karriere abhalten. Erst ganz am Ende realisiert er, dass die Liebe einer Frau ihn läutern und sein ganzes Leben ändern kann. 
+Robert Bresson war einer der ganz grossen Künstler des modernen Kinos, bewundert von so unterschiedlichen Regisseuren wie Martin Scorsese, Bernardo Bertolucci und Anrej Tarkovski. Angelehnt an Dostojewskis Schuld und Sühne zeigt er in PICKPOCKET den Werdegang eines Individuums, das meint, sich über die Gesellschaft stellen zu können, bis es nach einem tiefen Sturz am Ende eine Erlösung durch die Kraft der Liebe erfährt. 
+Bressons Filme sind streng, jedoch nicht kalt, karg aber nicht leer, konzentriert auf das Wesentliche, dennoch übersprudelnd mit Gefühlen.  TIME OUT Bresson hat einige der atemberaubendsten Szenen des Kinos geschaffen  etwa jene mit den Taschendieben auf der Rennbahn in Pickpocket.  Martin Scorsese"</span>
+        <a class="less">weniger</a>
+      </p>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Robert Bresson, Agnès Delahaie
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Dominique Zardi, Pierre Étaix, Martin LaSalle, Marika Green, Pierre Leymarie
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="EEVdZlZsQq4" type="button" class="videobutton" data-title="Pickpocket: Trailer 1">
+           Trailer 1
+        </button>
+        <button  data-id="UYHcz0pO9a4" type="button" class="videobutton" data-title="Pickpocket: Trailer 2">
+           Trailer 2
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/aA1O4AUCtgwLtvGBb4DgF9NtwTV.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Hiroshima, mon amour
+      <span class="pull-right">1959</span>
+    </h3>
+      <p class="film-description">
+        <span>Die französische Schauspielerin Elle reist im Jahr 1957 zu Filmaufnahmen nach Hiroshima, wo die entsetzliche ...</span>
+        <a class="more">mehr</a>
+      </p>
+      <p class="film-description invisible">
+        <span>Die französische Schauspielerin Elle reist im Jahr 1957 zu Filmaufnahmen nach Hiroshima, wo die entsetzliche Vergangenheit der Stadt auch noch über ein Jahrzehnt nach dem Kriegsende immer und überall fühlbar und gegenwärtig ist. Als Elle an ihrem vorletzten Drehtag dem japanischen Architekten Lui begegnet und eine kurze, aber umso leidenschaftlichere Liebesbeziehung mit ihm beginnt, werden mit der Erinnerung an ihre erste grosse Liebe auch ihre traumatischen Erinnerungen an den Zweiten Weltkrieg in Frankreich wach. In ihrer einzigen gemeinsamen Liebesnacht mit Lui erzählt sie ihm von ihrer grossen Liebe zu einem deutschen Besatzungssoldaten. Sie vertraut ihm eine Geschichte an, die sie bisher noch niemanden erzählt hat, der fremde Liebhaber wird in dieser Nacht zum engen Vertrauten. Mehrere Tausend Kilometer von ihrem Heimatort Nevers entfernt verbinden sich für sie die grauenvollen Kriegsgeschehen in Japan und Frankreich, ihre Liebe zu Lui und zu dem deutschen Soldaten, Gegenwart und Vergangenheit. -CHP</span>
+        <a class="less">weniger</a>
+      </p>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        Alain Resnais
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Bernard Fresson, Emmanuelle Riva, Eiji Okada, Pierre Barbaud, Stella Dassas
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="zjGdLZNAdRc" type="button" class="videobutton" data-title="Hiroshima, mon amour: Trailer 1">
+           Trailer 1
+        </button>
+    </div>
+  </div>
+</div>
+          <div class="media">
+  <img class="pull-left media-object"  src="http://image.tmdb.org/t/p/w154/yKMjkJP5HXApN8CHLJupeJUZl5s.jpg" />
+  <div class="media-body">
+    <h3 class="media-heading film-title">
+      Sie küßten und sie schlugen ihn
+      <span class="pull-right">1959</span>
+        <small class="film-subtitle">Les Quatre Cents Coups</small>
+    </h3>
+      <p class="film-description">
+        <span>"Trotz einiger ""Jährchen"" auch heute erstklassige Unterhaltung"</span>
+        <a class="more">mehr</a>
+      </p>
+      <p class="film-description invisible">
+        <span>"Trotz einiger ""Jährchen"" auch heute erstklassige Unterhaltung"</span>
+        <a class="less">weniger</a>
+      </p>
+    <dl>
+      <dt>Regie</dt>
+      <dd>
+        François Truffaut
+      </dd>
+      <br />
+        <dt>Darsteller</dt>
+        <dd>
+          Jeanne Moreau, Jean-Pierre Léaud, Albert Rémy, Claire Maurier, Jean-Claude Brialy
+        </dd>
+    </dl>
+    <div class="pull-right">
+        <button  data-id="SYCD1IBzzC0" type="button" class="videobutton" data-title="Sie küßten und sie schlugen ihn: Trailer 1">
+           Trailer 1
+        </button>
+        <button  data-id="i89oN8v7RdY" type="button" class="videobutton" data-title="Sie küßten und sie schlugen ihn: Trailer 2">
+           Trailer 2
+        </button>
+        <button  data-id="zvQp2xiHaDs" type="button" class="videobutton" data-title="Sie küßten und sie schlugen ihn: Trailer 3">
+           Trailer 3
+        </button>
+    </div>
+  </div>
+</div>
+  <ul class="pagination">
+      <li>
+        <a  href="/cinemap-mediathek/france/orderby/releasedate/30/#films">
+           &laquo;
+        </a>
+      </li>
+          <li>
+            <a  href="/cinemap-mediathek/france/orderby/releasedate/#films">
+               1
+            </a>
+          </li>
+          <li>
+            <a  href="/cinemap-mediathek/france/orderby/releasedate/2/#films">
+               2
+            </a>
+          </li>
+        <li>
+          <a>&hellip;</a>
+        </li>
+          <li>
+            <a  href="/cinemap-mediathek/france/orderby/releasedate/29/#films">
+               29
+            </a>
+          </li>
+          <li>
+            <a  href="/cinemap-mediathek/france/orderby/releasedate/30/#films">
+               30
+            </a>
+          </li>
+          <li  class="active">
+            <a>
+              31
+            </a>
+          </li>
+          <li>
+            <a  href="/cinemap-mediathek/france/orderby/releasedate/32/#films">
+               32
+            </a>
+          </li>
+      <li>
+        <a  href="/cinemap-mediathek/france/orderby/releasedate/32/#films">
+           &raquo;
+        </a>
+      </li>
+  </ul>
+      </div>
+      <div class="col-md-4">
+        <aside class="box sidebar">
+          <section>
+  <h3>Populäre Regisseure</h3>
+  <hr />
+  <ul class="list-unstyled">
+      <li>Vittorio De Sica</li>
+      <li>Roman Polanski</li>
+      <li>Emir Kusturica</li>
+      <li>Henri-Georges Clouzot</li>
+      <li>Jean-Pierre Melville</li>
+      <li>Alain Resnais</li>
+      <li>Jean-Pierre Jeunet</li>
+      <li>Jean Renoir</li>
+  </ul>
+</section>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <div id="videomodal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close"  data-dismiss="modal" type="button" aria-hidden="true">
+             &times;
+          </button>
+          <h3 class="modal-title"> </h3>
+        </div>
+        <div class="modal-body">
+          <iframe  src="" allowfullscreen="true" width="480" frameborder="0" height="360"> </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="box">
+    <div class="container">
+        <img  width="61px" alt="Freebase CC-BY" src="http://www.freebase.com/policies/freebase-cc-by-61x23.png" height="23px" />
+        <span>Datenquellen:</span>
+        <a  href="http://www.freebase.com/">Freebase</a>
+        <a  href="http://creativecommons.org/licenses/by/2.5/">(CC-BY),</a>
+        <a  href="http://en.wikipedia.org/">Wikipedia</a>
+        <a  href="http://creativecommons.org/licenses/by-sa/2.5/">(CC BY-SA).</a>
+        <span>This product uses the TMDb API but is not endorsed or certified by TMDb.</span>
+    </div>
+</footer>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-46126283-2', 'cinemap.org');
+  ga('send', 'pageview');
+</script>
+    <script  src="/cinemap-mediathek/static/scripts.js"> </script>
+  <script>drawMap('250')</script>
+  </body>
+</html>
